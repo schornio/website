@@ -15,3 +15,7 @@
 
 25. Mai 2013
 	Neues Design
+
+27. Mai 2013
+	Teil "ECTS Stand" entfert (nach Feedback)
+	Kleines Design update

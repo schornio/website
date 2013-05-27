@@ -1,0 +1,110 @@
+@backgroundStyle: #FFFFFF;
+@backgroundStyleAccent: #2ecc71;
+@foregroundStyle: #3498db;
+
+.lightFontStyle {
+	font-weight: 200;
+}
+
+.boldFontStyle {
+	font-weight: 600;
+}
+
+body {
+	font-family: 'Source Sans Pro' Arial, sans-serif;
+	.lightFontStyle;
+
+	background: #FFFFFF;
+	font-size: 21px;
+	margin: 0px;
+
+	h1 {
+		.lightFontStyle;
+		font-size: 48px;
+		text-align: center;
+		margin: 10px 0px 0px 0px;
+	}
+
+	h2 {
+		.lightFontStyle;
+		font-size: 32px;
+		text-align: center;
+	}
+
+	a {
+		color: @foregroundStyle;
+		text-decoration: none;
+	}
+
+	#tags {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	#highlight {
+		padding: 25px 0px 25px 0px;
+
+		background: @backgroundStyleAccent;
+		color: @backgroundStyle;
+
+		p {
+			margin-bottom: 10px;
+		}
+
+		@media (min-width: 801px)
+		{
+			img {
+				display: block;
+				margin-right: 20px;
+				float: left;
+			}
+
+			#main {
+				margin: 0px auto 0px auto;
+				max-width: 800px;
+
+				#motivation {
+					max-width: 480px;
+					display: inline-block;
+					float: left;
+				}
+			}
+		}
+
+		@media (max-width: 800px) 
+		{
+			img {
+				display: block;
+				margin: 0px auto 0px auto;
+			}
+
+			p {
+				padding: 0px 5px 0px 5px;
+			}
+		}
+
+		#main:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}
+
+	p {
+		max-width: 380px;
+		margin: 0px auto 0px auto;
+	}
+
+	#footer {
+		margin: 60px auto 0px auto;
+		padding: 10px 0px 0px 0px;
+		text-align: center;
+		font-size: 14px;
+		border-top: dashed 1px;
+
+		.highlight {
+			.boldFontStyle;
+			display: inline;
+		}
+	}
+}
