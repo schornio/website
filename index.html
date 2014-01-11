@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/1999/xhtml
+                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd"
+>
 	<head>
 	    <title>Thomas Schorn</title>
+        
 	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	    <link rel="stylesheet" type="text/css" href="style.css" />
-	    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600' rel='stylesheet' type='text/css' />
-	    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-	    <script>
+	    <script type="text/javascript">
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -19,23 +27,63 @@
 		</script>
 	</head>
 	<body>
+		
 		<h1>Thomas Schorn</h1>
-		<p id="tags">Freigeist | Innovator | Gutmensch</p>
 		<div id="highlight">
-			<div id="main">
-				<img alt="Thomas Schorn" src="thomas_schorn.png" />
-				<div id="motivation">
-					<p>Meine Passion ist die Web-Entwicklung: neue, aufregende Ideen in die Tat umzusetzen und stundenlang am Code zu experimentieren. Immer offen f&uuml;r neue Denkans&auml;tze und Technologien.</p>
-					<p>Bin gerade mitten in meinem Studium "Kommunikaton, Wissen, Medien" an der FH Hagenberg.</p>
+			<div class="container">
+				<div class="col-md-1">&nbsp;</div>
+				<div id="myPicture" class="col-md-4">
+					<img alt="Thomas Schorn" src="img/thomas_schorn.png" />
 				</div>
+				<div class="col-md-6">
+                    <div class="v-center-box">
+					   <p class="v-center">I'm a passionate software developer and always receptive for new technologies and ways of thinking and designing. After my education at a technical college in Upper Austria focused on business software development I decided to broaden my mind and study communication and knowledge media at University of Applied Sciences Upper Austria.</p>
+                    </div>
+				</div>
+				
+				<div class="col-md-1">&nbsp;</div>
 			</div>
 		</div>
-	    
-		
-		<h2>Kontakt</h2>
-	    <p>E-Mail-Adresse: <a href="mailto:thomas@schorn.io">thomas@schorn.io</a></p>
-	    <p>Telefon: +43 699 / 18 22 30 65</p>
-	
-	  	<div id="footer">Zuletzt ge&auml;ndert am <div class="highlight">27. Mai 2013</div>, zuletzt auf Aktualit&auml;t gepr&uuml;ft am <div class="highlight">20. August 2013</div> - <a href="changes.txt">Changelog</a></div>
+        
+        <div id="skills" class="container">
+            <div class="col-md-4">
+                <h2>Software development</h2>
+                <ul>
+                    <li><img alt="Professional" src="img/professional.png" /> JavaScript</li>
+                    <li><img alt="Professional" src="img/professional.png" /> .NET</li>
+                    <li><img alt="Mastery" src="img/mastery.png" /> PHP</li>
+                    <li><img alt="Advanced" src="img/advanced.png" /> SQL</li>
+                    <li><img alt="Mastery" src="img/mastery.png" /> XML, JSON</li>
+                    <li><img alt="Mastery" src="img/mastery.png" /> HTML, CSS</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Transfer expertise</h2>
+                <ul>
+                    <li><img alt="Advanced" src="img/advanced.png" /> Interaction design</li>
+                    <li><img alt="Professional" src="img/professional.png" /> Usability</li>
+                    <li><img alt="Professional" src="img/professional.png" /> Project management</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Social sciences</h2>
+                <ul>
+                    <li><img alt="Mastery" src="img/mastery.png" /> social media communication</li>
+                    <li><img alt="Learning" src="img/learning.png" /> media psychology</li>
+                    <li><img alt="Advanced" src="img/advanced.png" /> pedagogy and e-learning</li>
+                    <li><img alt="Mastery" src="img/mastery.png" /> empirical social research</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="contact" class="container">
+            <div class="col-md-offset-4 col-md-4">
+                <h2>Contact</h2>
+                <p>E-Mail: <a href="mailto:thomas@schorn.io">thomas@schorn.io</a></p>
+                <p>Phone: +43 699 / 18 22 30 65</p>
+            </div>
+        </div>
+
+	  	<div id="footer">Last update: <div class="highlight">11th January 2014</div>, last reviewed: <div class="highlight">11th January 2014</div> - <a href="changes.txt">Changelog</a></div>
 	</body>
 </html>

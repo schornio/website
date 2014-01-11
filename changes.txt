@@ -19,3 +19,8 @@
 27. Mai 2013
 	Teil "ECTS Stand" entfert (nach Feedback)
 	Kleines Design update
+
+11th January 2014
+    Translated into english
+    CV added
+    Now more responsive, thanks Bootstrap
