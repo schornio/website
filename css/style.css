@@ -46,6 +46,16 @@ a {
     list-style: none;
 }
 
+#caption {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#caption img {
+    height: 14px;
+}
+
 #footer {
     margin: 50px auto 0px auto;
     padding: 10px 0px 0px 0px;
