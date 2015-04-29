@@ -24,3 +24,6 @@
     Translated into english
     CV added
     Now more responsive, thanks Bootstrap
+
+29th April 2015
+    Silicon Valley update
