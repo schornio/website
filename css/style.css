@@ -21,7 +21,7 @@ h2 {
 
 h3 {
     margin-top: 25px;
-    
+
     font-size: 24px;
     font-weight: 600;
 }
@@ -40,7 +40,7 @@ a {
 #highlight {
     margin: 20px auto 20px auto;
     padding: 25px 0px 25px 0px;
-    
+
     background: #2ecc71;
     color: #ffffff;
 }
@@ -73,7 +73,7 @@ a {
     margin: 50px auto 0px auto;
     padding: 10px 0px 0px 0px;
     border-top: dashed 1px;
-    
+
     text-align: center;
     font-size: 14px;
 }
