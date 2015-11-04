@@ -37,12 +37,39 @@ a {
     margin: 30px 0px;
 }
 
-#highlight {
+.highlight {
     margin: 20px auto 20px auto;
     padding: 25px 0px 25px 0px;
+}
 
-    background: #2ecc71;
-    color: #ffffff;
+.schornio {
+  background: #2ecc71;
+  color: #ffffff;
+}
+
+.aetherwave {
+  background: #175190;
+  color: #ffffff;
+  text-align: center;
+}
+
+.aetherwave a {
+  color: #ffffff;
+}
+
+.round-image {
+  border-radius: 100%;
+  background: white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.round-image-content {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #myPicture {
