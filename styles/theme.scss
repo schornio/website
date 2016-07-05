@@ -1,8 +1,25 @@
 $main-color: white;
 $accent-color: hsl(80, 50%, 70%);
 
-$h1-font: 22px serif;
-$h2-font: 20px serif;
-$h3-font: 18px serif;
+$h1-font: 40px 'Lora', serif;
+$h2-font: 30px 'Lora', serif;
+$h3-font: 22px 'Lora', serif;
 
-$body-font: 14px sans-serif;
+$body-font: 18px 'Open Sans', sans-serif;
+
+h1 {
+  font: $h1-font;
+}
+
+h2 {
+  font: $h2-font;
+}
+
+h3 {
+  font: $h3-font;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+}

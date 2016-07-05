@@ -1,3 +1,16 @@
+h1 {
+  font: 40px "Lora", serif; }
+
+h2 {
+  font: 30px "Lora", serif; }
+
+h3 {
+  font: 22px "Lora", serif; }
+
+a {
+  color: #bfd98c;
+  text-decoration: none; }
+
 .j1-logo {
   height: 0.7em; }
 
@@ -28,7 +41,7 @@ body {
   flex-flow: column;
   justify-content: space-around;
   height: 12vmin;
-  font: 22px serif; }
+  font: 22px "Lora", serif; }
   @media (max-width: 800px) {
     #main-nav-content {
       height: calc(100% - 12vmin); } }
@@ -86,5 +99,23 @@ body {
   margin: 0;
   padding: 0; }
 
+html {
+  height: 100%; }
+
 body {
-  font: 14px sans-serif; }
+  font: 18px "Open Sans", sans-serif;
+  padding-top: 6vmin; }
+
+h1, h2, h3 {
+  margin: 6vmin 0;
+  text-align: center; }
+
+p {
+  margin: 6vmin auto;
+  padding: 0 6vmin;
+  max-width: 800px; }
+
+#contact-thumb {
+  text-align: center;
+  font-size: 24px;
+  line-height: 2; }

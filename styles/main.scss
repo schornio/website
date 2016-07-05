@@ -1,4 +1,5 @@
 $mobile-threshold: 800px;
+$default-space: 6vmin;
 
 @import 'theme';
 @import 'j1_logo';
@@ -10,6 +11,31 @@ $mobile-threshold: 800px;
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font: $body-font;
+
+  padding-top: $default-space;
+}
+
+h1, h2, h3 {
+  margin: $default-space 0;
+
+  text-align: center;
+}
+
+p {
+  margin: $default-space auto;
+  padding: 0 $default-space;
+
+  max-width: $mobile-threshold;
+}
+
+#contact-thumb {
+  text-align: center;
+  font-size: 24px;
+  line-height: 2;
 }

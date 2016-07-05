@@ -2,6 +2,7 @@ $main-nav-height: 12vmin;
 
 body {
   margin-top: $main-nav-height;
+  // height: calc(100% - #{$main-nav-height});
 }
 
 #main-nav {
@@ -44,7 +45,7 @@ body {
 
   height: $main-nav-height;
 
-  font: $h1-font;
+  font: $h3-font;
 
   @media (max-width: $mobile-threshold) {
     height: calc(100% - #{$main-nav-height});
