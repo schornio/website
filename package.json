@@ -4,11 +4,12 @@
   "description": "Thomas Schorns commercial website",
   "main": "index.js",
   "scripts": {
+    "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schornio/website.git"
+    "url": "git+https://github.com/schornio/website.git"
   },
   "keywords": [
     "website",
@@ -16,9 +17,12 @@
   ],
   "author": "Thomas Schorn",
   "license": "UNLICENCED",
-  "readmeFilename": "README.md",
-  "gitHead": "b6a40cb7de0f4a676b38a12277a30ba3989eed4f",
   "bugs": {
     "url": "https://github.com/schornio/website/issues"
-  }
+  },
+  "dependencies": {
+    "metalsmith": "^2.1.0"
+  },
+  "homepage": "https://github.com/schornio/website#readme",
+  "devDependencies": {}
 }
