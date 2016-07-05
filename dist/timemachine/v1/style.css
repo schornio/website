@@ -1,0 +1,95 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 11:07:21 Mar 15, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:57:54 May 25, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body
+{
+    background-color: #202020;
+    font-family: 'Lato' , sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}      
+
+.box
+{
+    padding: 5px 0px 0px 20px;
+    margin: auto;
+    width: 600px;
+    height: 140px;
+    vertical-align: middle;
+}
+
+.space
+{
+    height: 20px;    
+}
+
+.highlight
+{
+    font-weight: bold;
+    display: inline;
+}
+   
+#head_image
+{
+    text-align: center;
+}  
+
+#basic
+{
+    background-color: #FFFFFF;
+    color: #202020;    
+    text-align: center;
+    font-size: 22px;
+} 
+        
+#input
+{
+    background-color: #ED1C24;
+}
+
+#output
+{
+    background-color: #00A2E8;
+}
+
+a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#status
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
+}
+
+#qr_contact
+{
+    position: absolute;
+    font-size: 10px;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    bottom: 0px;
+    left: 0px;
+}
+
+#qrcode
+{
+    position: absolute;
+}

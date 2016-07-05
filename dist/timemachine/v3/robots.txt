@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /v1
+Disallow: /v2
+
+Sitemap: https://www.schorn.io/sitemap.xml

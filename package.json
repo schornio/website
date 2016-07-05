@@ -4,7 +4,11 @@
   "description": "Thomas Schorns commercial website",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
+    "cleanup": "rm -r dist/*",
+    "copy:timemachine": "cp -r timemachine dist/",
+    "copy": "npm run copy:timemachine",
+    "build:metalsmith": "node build.js",
+    "build": "npm run cleanup && npm run build:metalsmith && npm run copy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
