@@ -17,8 +17,6 @@ html {
 
 body {
   font: $body-font;
-
-  padding-top: $default-space;
 }
 
 h1, h2, h3 {
@@ -32,6 +30,16 @@ p {
   padding: 0 $default-space;
 
   max-width: $mobile-threshold;
+}
+
+.panorama-image {
+  padding: 0;
+
+  img {
+    width: 100%;
+
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+  }
 }
 
 #contact-thumb {

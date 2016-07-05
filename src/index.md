@@ -1,5 +1,10 @@
 # Thomas Schorn
 
+<p class="panorama-image">
+  ![Thomas Schorn](static/images/sofa.jpg)
+</p>
+
+
 <p id="contact-thumb">
   [+43 99 182 230 65](#)  
   [thomas@schorn.io](mailto:thomas@schorn.io)

@@ -1,8 +1,7 @@
 $main-nav-height: 12vmin;
 
 body {
-  margin-top: $main-nav-height;
-  // height: calc(100% - #{$main-nav-height});
+  padding-top: $main-nav-height;
 }
 
 #main-nav {

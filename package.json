@@ -6,7 +6,8 @@
   "scripts": {
     "cleanup": "rm -r dist/*",
     "copy:timemachine": "cp -r timemachine dist/",
-    "copy": "npm run copy:timemachine",
+    "copy:static": "cp -r static/* dist/static",
+    "copy": "npm run copy:timemachine && npm run copy:static",
     "build:metalsmith": "node build.js",
     "build:styles": "node-sass styles/main.scss dist/static/style.css",
     "build:scripts": "browserify scripts/index.js -t [ babelify --presets [ es2015 ] ] > dist/static/script.js",

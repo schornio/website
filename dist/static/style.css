@@ -15,7 +15,7 @@ a {
   height: 0.7em; }
 
 body {
-  margin-top: 12vmin; }
+  padding-top: 12vmin; }
 
 #main-nav {
   position: fixed;
@@ -103,8 +103,7 @@ html {
   height: 100%; }
 
 body {
-  font: 18px "Open Sans", sans-serif;
-  padding-top: 6vmin; }
+  font: 18px "Open Sans", sans-serif; }
 
 h1, h2, h3 {
   margin: 6vmin 0;
@@ -114,6 +113,12 @@ p {
   margin: 6vmin auto;
   padding: 0 6vmin;
   max-width: 800px; }
+
+.panorama-image {
+  padding: 0; }
+  .panorama-image img {
+    width: 100%;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.75); }
 
 #contact-thumb {
   text-align: center;
