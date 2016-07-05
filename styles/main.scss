@@ -1,0 +1,15 @@
+$mobile-threshold: 800px;
+
+@import 'theme';
+@import 'j1_logo';
+
+@import 'main_menu';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: $body-font;
+}
