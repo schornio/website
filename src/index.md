@@ -10,4 +10,4 @@
   [thomas@schorn.io](mailto:thomas@schorn.io)
 </p>
 
-Meine Motivation ist es, Software auf höchstem Niveau zu entwickeln. Qualitätssoftware ist für mich nachhaltig geplant, strukturell einwandfrei, durchgehend benutzerfreundlich und zuverlässig. Wo andere Kompromisse machen, perfektioniere ich aus Überzeugung. [Kontaktieren](/contact)
+Meine Motivation ist es, Software auf höchstem Niveau zu entwickeln. Qualitätssoftware ist für mich nachhaltig geplant, strukturell einwandfrei, durchgehend benutzerfreundlich und zuverlässig. Wo andere Kompromisse machen, perfektioniere ich aus Überzeugung. [Kontaktieren](../contact)
