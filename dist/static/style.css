@@ -8,7 +8,7 @@ h3 {
   font: 22px "Lora", serif; }
 
 a {
-  color: #bfd98c;
+  color: #b3d5e6;
   text-decoration: none; }
 
 .j1-logo {
@@ -22,7 +22,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #bfd98c; }
+  background: #b3d5e6; }
   @media (max-width: 800px) {
     #main-nav {
       top: calc(12vmin - 100%);
