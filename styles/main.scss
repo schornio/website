@@ -1,5 +1,5 @@
 $mobile-threshold: 800px;
-$default-space: 6vmin;
+$default-space: 20px;
 
 @import 'theme';
 @import 'j1_logo';
@@ -17,12 +17,20 @@ html {
 
 body {
   font: $body-font;
+  padding-bottom: $default-space * 3;
 }
 
 h1, h2, h3 {
-  margin: $default-space 0;
+  margin: $default-space * 3 auto $default-space auto;
+  padding: 0 $default-space;
+
+  max-width: $mobile-threshold;
 
   text-align: center;
+}
+
+h3 {
+  text-align: left;
 }
 
 p {
@@ -30,6 +38,10 @@ p {
   padding: 0 $default-space;
 
   max-width: $mobile-threshold;
+}
+
+.center {
+  text-align: center;
 }
 
 .panorama-image {
@@ -46,4 +58,13 @@ p {
   text-align: center;
   font-size: 24px;
   line-height: 2;
+}
+
+#skills-images {
+  text-align: center;
+
+  img {
+    height: 40px;
+    padding: $default-space;
+  }
 }

@@ -6,8 +6,8 @@
 
 
 <p id="contact-thumb">
-  [+43 99 182 230 65](#)  
+  [+43 99 182 230 65](tel:004369918223065)  
   [thomas@schorn.io](mailto:thomas@schorn.io)
 </p>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Meine Motivation ist es, Software auf höchstem Niveau zu entwickeln. Qualitätssoftware ist für mich nachhaltig geplant, strukturell einwandfrei, durchgehend benutzerfreundlich und zuverlässig. Wo andere Kompromisse machen, perfektioniere ich aus Überzeugung. [Kontaktieren](/contact)

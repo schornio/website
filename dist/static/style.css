@@ -8,7 +8,7 @@ h3 {
   font: 22px "Lora", serif; }
 
 a {
-  color: #b3d5e6;
+  color: #66aacc;
   text-decoration: none; }
 
 .j1-logo {
@@ -41,10 +41,12 @@ body {
   flex-flow: column;
   justify-content: space-around;
   height: 12vmin;
+  max-height: 60px;
   font: 22px "Lora", serif; }
   @media (max-width: 800px) {
     #main-nav-content {
-      height: calc(100% - 12vmin); } }
+      height: calc(100% - 12vmin);
+      max-height: none; } }
   #main-nav-content ul {
     display: flex;
     flex-flow: row;
@@ -103,16 +105,25 @@ html {
   height: 100%; }
 
 body {
-  font: 18px "Open Sans", sans-serif; }
+  font: 18px "Open Sans", sans-serif;
+  padding-bottom: 60px; }
 
 h1, h2, h3 {
-  margin: 6vmin 0;
+  margin: 60px auto 20px auto;
+  padding: 0 20px;
+  max-width: 800px;
   text-align: center; }
 
+h3 {
+  text-align: left; }
+
 p {
-  margin: 6vmin auto;
-  padding: 0 6vmin;
+  margin: 20px auto;
+  padding: 0 20px;
   max-width: 800px; }
+
+.center {
+  text-align: center; }
 
 .panorama-image {
   padding: 0; }
@@ -124,3 +135,9 @@ p {
   text-align: center;
   font-size: 24px;
   line-height: 2; }
+
+#skills-images {
+  text-align: center; }
+  #skills-images img {
+    height: 40px;
+    padding: 20px; }
