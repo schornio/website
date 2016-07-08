@@ -14,6 +14,9 @@ a {
 .j1-logo {
   height: 0.7em; }
 
+.j1-logo-big {
+  height: 10vh; }
+
 body {
   padding-top: 12vmin; }
 
@@ -71,7 +74,8 @@ body {
         display: block; }
         #main-nav-content .nav-image img {
           width: 30vmin;
-          height: 30vmin; } }
+          height: 30vmin;
+          border-radius: 50%; } }
 
 #main-nav-toggle {
   display: none; }
@@ -128,8 +132,7 @@ p {
 .panorama-image {
   padding: 0; }
   .panorama-image img {
-    width: 100%;
-    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.75); }
+    width: 100%; }
 
 #contact-thumb {
   text-align: center;

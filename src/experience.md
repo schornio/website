@@ -1,16 +1,21 @@
 # Erfahrung
 
-### Silicon Valley
+<p class="panorama-image">
+  ![Thomas Schorn an seinem Mac](../static/images/experience.jpg)
+</p>
+
+
+### Start-Up Accelerator mit Zebra New Media
 
 Silicon Valley von April bis Juni 2015
 
-Teilgenommen an einem Start-Up Coaching- und Entwicklungsprogramm bei Founders Space. Dort konnte einiges zum Thema Führung und Management gelernt werden und der „Silicon Valley Spirit“ voll und ganz auskostet werden.
+Teilnahme an einem Coaching- und Entwicklungsprogramm für Start-Ups bei [Founders Space](http://www.foundersspace.com/). Wichtige Erfahrungen im Bereich Führung und Management.
 
 ### [Zebra New Media](http://zebra-online.at)
 
 Softwareentwickler in Linz von 2013 bis 2015
 
-Aufgaben waren in jedem Teilbereich des Unternehmens zu helfen und die Crawler-Technologie voran zu treiben. Auch im Bereich NoSQL, Big-Data, und Data-Mining konnte viel Erfahrung gesammeln werden.
+Mithilfe in jedem Teilbereich des Unternehmens, vor allem in der Entwicklung der Crawler-Technologie. Im Bereich NoSQL, Big-Data und Data-Mining konnte viel Erfahrung gesammelt werden.
 
 ## Ausbildung
 
@@ -18,10 +23,8 @@ Aufgaben waren in jedem Teilbereich des Unternehmens zu helfen und die Crawler-T
 
 Kommunikation, Wissen, Medien, von 2012 bis jetzt
 
-Der Studienschwerpunkt lag vor allem auf der Ausbildung zur Schnittstelle zwischen der IT-Welt und der restlichen Welt. Angefangen bei empirischen Sozialforschung und Medienpsychologie, über Projekt und Organisationsmanagement, bis hin zu Softwaremodellierung und Entwicklung, war es ein sehr breit aufgestelltes Studium.
+Schwerpunkt auf der Schnittstelle zwischen Informatik und Gesellschaft. Seminare u.a. zu empirischer Sozialforschung, Medienpsychologie, Projekt- und Organisationsmanagement, Softwaremodellierung und -Entwicklung.
 
 ### [HTBLA Leonding](https://www.htl-leonding.at)
 
 EDV und Organisation, von 2006 bis 2012
-
-Mit der Ausbildung an der HTBLA Leonding wurde ein solider Grundstein für alle folgenden, vertiefenden Lektionen zum Thema Softwareentwicklung gelegt.

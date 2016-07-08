@@ -1,7 +1,7 @@
 # Thomas Schorn
 
 <p class="panorama-image">
-  ![Thomas Schorn](static/images/sofa.jpg)
+  ![Thomas Schorn](static/images/thomas_schorn.jpg)
 </p>
 
 
