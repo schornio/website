@@ -8,6 +8,7 @@ const markdown = require('metalsmith-markdown');
 const relative = require('metalsmith-relative');
 const layouts = require('metalsmith-layouts');
 const permalinks = require('metalsmith-permalinks');
+const sitemap = require('metalsmith-sitemap');
 
 metalsmith(__dirname)
   .metadata({
@@ -24,6 +25,10 @@ metalsmith(__dirname)
     pattern: '**/*.html',
     default: 'default.hbs',
     partials: 'layouts/partials',
+  }))
+  .use(sitemap({
+    hostname: 'https://www.schorn.io',
+    omitIndex: true
   }))
   .destination(DESTINATION)
   .build((error) => {
