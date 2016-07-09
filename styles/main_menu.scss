@@ -45,7 +45,7 @@ body {
   height: $main-nav-height;
   max-height: 60px;
 
-  font: $h3-font;
+  font: $body-font;
 
   @media (max-width: $mobile-threshold) {
     height: calc(100% - #{$main-nav-height});

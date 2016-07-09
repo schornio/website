@@ -1,0 +1,15 @@
+body {
+  animation-name: adjust;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes adjust {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
