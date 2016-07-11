@@ -54,11 +54,16 @@ p {
 
   @media (max-width: $mobile-threshold) {
     padding: $default-space $default-space;
+    transform: none;
   }
 }
 
 .content {
   transform: skewY(-6deg);
+
+  @media (max-width: $mobile-threshold) {
+    transform: none;
+  }
 }
 
 .center {
