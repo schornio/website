@@ -16,7 +16,6 @@
   4020 Linz
 </p>
 
-## Impressum
-
-Für den Inhalt dieser Seite verantwortlich: Thomas Schorn c/o AXIS Linz - Coworking Loft,  
-Peter-Behrens-Platz 2, OG 1, 4020 Linz
+<p class="center">
+  [Impressum](/imprint)  
+</p>

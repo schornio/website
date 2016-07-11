@@ -290,6 +290,7 @@ h3 {
       transform: none; } }
 
 .center {
+  margin: 2em 0;
   text-align: center; }
 
 .panorama-image {
