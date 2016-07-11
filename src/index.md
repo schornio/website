@@ -1,13 +1,19 @@
-# Thomas Schorn
+---
+layout: index.hbs
+---
 
-<p class="panorama-image">
-  ![Thomas Schorn](static/images/thomas_schorn.jpg)
-</p>
+Thomas Schorn
 
+[Bild]
 
-<p id="contact-thumb">
-  [+43 99 182 230 65](tel:004369918223065)  
-  [thomas@schorn.io](mailto:thomas@schorn.io)
-</p>
+Mein Angebot
 
-Meine Motivation ist es, Software auf höchstem Niveau zu entwickeln. Qualitätssoftware ist für mich nachhaltig geplant, strukturell einwandfrei, durchgehend benutzerfreundlich und zuverlässig. Wo andere Kompromisse machen, perfektioniere ich aus Überzeugung. [Kontaktieren](../contact)
+Journal One
+
+Erfahrung
+
+Kontakt
+
+x
+
+y

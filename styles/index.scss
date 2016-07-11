@@ -1,0 +1,166 @@
+$height-factor: 1.732;
+
+$font-size: 2.5vmin;
+
+$body-padding: 15vmin;
+$content-width: 100vmin - 2 * $body-padding;
+
+$tile-margin: 1vmin;
+$tile-width: ($content-width) / 3;
+$tile-height: $tile-width * $height-factor;
+
+#index {
+
+  background-image: url('images/aec.jpg');
+  background-size: cover;
+
+  display: flex;
+
+  flex-flow: column;
+  justify-content: center;
+
+  padding: 0;
+
+  height: 100%;
+
+  font-size: 0;
+
+  .row {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+
+    animation-name: rotateS;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;;
+    animation-fill-mode: forwards;
+
+    position: relative;
+
+    width: $content-width;
+    margin: 0 auto;
+
+    .tile {
+      float: left;
+
+      display: flex;
+
+      flex-flow: column;
+      justify-content: center;
+
+      transform: skewY(30deg);
+
+      width: $tile-width - 2 * $tile-margin;
+      height: $tile-width + $tile-margin;
+
+      margin: $tile-margin;
+
+      overflow: hidden;
+
+      font-size: 2.5vmin;
+      text-align: center;
+
+      color: #414141;
+      background: white;
+
+      .adjust-baseline {
+        opacity: 0;
+
+        transform: skewY(-30deg);
+
+        animation-name: showText;
+        animation-duration: 0.5s;
+        animation-delay: 2s;
+        animation-timing-function: linear;;
+        animation-fill-mode: forwards;
+      }
+
+      .tile-image {
+        width: 70%;
+        border-radius: 50%;
+      }
+    }
+
+    .tile-left {
+      transform: skewY(-30deg);
+
+      .adjust-baseline {
+        transform: skewY(30deg);
+      }
+    }
+
+    .tile.tile-row-2 {
+      margin-top: calc(#{-$tile-width - 2 * $tile-margin} + 2px);
+
+
+      animation-name: showSecondLine;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;;
+      animation-fill-mode: forwards;
+    }
+
+    .tile.j1-right {
+      animation-name: fadeToPurple;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;;
+      animation-fill-mode: forwards;
+    }
+
+    .tile.j1-left {
+      animation-name: fadeToCyan;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+@keyframes rotateS {
+  from {
+    transform: rotate(90deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes showSecondLine {
+  to {
+    margin-top: $tile-margin;
+  }
+}
+
+@keyframes seperateTiles {
+    to {
+      width: $tile-width - 2 * $tile-margin;
+      margin: 0 $tile-margin;
+    }
+}
+
+@keyframes showText {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeToCyan {
+  to {
+    background: #65bab8;
+    margin-top: $tile-margin;
+  }
+}
+
+@keyframes fadeToPurple {
+  to {
+    background: #a03389;
+    margin-top: $tile-margin;
+  }
+}

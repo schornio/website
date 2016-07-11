@@ -3,21 +3,23 @@ $default-space: 20px;
 
 @import 'theme';
 @import 'j1_logo';
-@import 'animations';
 
 @import 'main_menu';
+@import 'index';
 
 * {
   margin: 0;
   padding: 0;
 }
 
-html {
+html, body {
   height: 100%;
+  width: 100%;
 }
 
 body {
   font: $body-font;
+  font-weight: 100;
   padding-bottom: $default-space * 3;
 }
 

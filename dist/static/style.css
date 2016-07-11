@@ -18,17 +18,6 @@ a {
   height: 10vh; }
 
 body {
-  animation-name: adjust;
-  animation-duration: 0.5s;
-  animation-timing-function: ease-in; }
-
-@keyframes adjust {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-body {
   padding-top: 12vmin; }
 
 #main-nav {
@@ -56,7 +45,7 @@ body {
   justify-content: space-around;
   height: 12vmin;
   max-height: 60px;
-  font: 18px "Open Sans", sans-serif; }
+  font: 18pt "Roboto", sans-serif; }
   @media (max-width: 800px) {
     #main-nav-content {
       height: calc(100% - 12vmin);
@@ -112,15 +101,117 @@ body {
   animation-duration: 1s;
   animation-fill-mode: forwards; }
 
+#index {
+  background-image: url("images/aec.jpg");
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0;
+  height: 100%;
+  font-size: 0; }
+  #index .row {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    animation-name: rotateS;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    position: relative;
+    width: 70vmin;
+    margin: 0 auto; }
+    #index .row .tile {
+      float: left;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      transform: skewY(30deg);
+      width: 21.33333vmin;
+      height: 24.33333vmin;
+      margin: 1vmin;
+      overflow: hidden;
+      font-size: 2.5vmin;
+      text-align: center;
+      color: #414141;
+      background: white; }
+      #index .row .tile .adjust-baseline {
+        opacity: 0;
+        transform: skewY(-30deg);
+        animation-name: showText;
+        animation-duration: 0.5s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards; }
+      #index .row .tile .tile-image {
+        width: 70%;
+        border-radius: 50%; }
+    #index .row .tile-left {
+      transform: skewY(-30deg); }
+      #index .row .tile-left .adjust-baseline {
+        transform: skewY(30deg); }
+    #index .row .tile.tile-row-2 {
+      margin-top: calc(-25.33333vmin + 2px);
+      animation-name: showSecondLine;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards; }
+    #index .row .tile.j1-right {
+      animation-name: fadeToPurple;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards; }
+    #index .row .tile.j1-left {
+      animation-name: fadeToCyan;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards; }
+
+@keyframes rotateS {
+  from {
+    transform: rotate(90deg); }
+  to {
+    transform: rotate(0deg); } }
+
+@keyframes showSecondLine {
+  to {
+    margin-top: 1vmin; } }
+
+@keyframes seperateTiles {
+  to {
+    width: 21.33333vmin;
+    margin: 0 1vmin; } }
+
+@keyframes showText {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeToCyan {
+  to {
+    background: #65bab8;
+    margin-top: 1vmin; } }
+
+@keyframes fadeToPurple {
+  to {
+    background: #a03389;
+    margin-top: 1vmin; } }
+
 * {
   margin: 0;
   padding: 0; }
 
-html {
-  height: 100%; }
+html, body {
+  height: 100%;
+  width: 100%; }
 
 body {
-  font: 18px "Open Sans", sans-serif;
+  font: 18pt "Roboto", sans-serif;
+  font-weight: 100;
   padding-bottom: 60px; }
 
 h1, h2, h3 {
