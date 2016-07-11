@@ -1,4 +1,4 @@
-$main-color: gray;
+$main-color: black;
 $accent-color: white;
 
 $h1-font: 40px 'Roboto', serif;
@@ -28,7 +28,7 @@ h3 {
 }
 
 a {
-  color: darken($accent-color, 20%);;
+  color: blue;
   text-decoration: none;
 }
 

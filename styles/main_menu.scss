@@ -9,6 +9,7 @@ body {
 
   top: 0;
   left: 0;
+  z-index: 1;
 
   width: 100%;
 
@@ -45,8 +46,6 @@ body {
   height: $main-nav-height;
   max-height: 60px;
 
-  font: $body-font;
-
   @media (max-width: $mobile-threshold) {
     height: calc(100% - #{$main-nav-height});
     max-height: none;
@@ -80,18 +79,9 @@ body {
     text-decoration: none;
   }
 
-  .nav-image {
-    display: none;
-
-    @media (max-width: $mobile-threshold) {
-      display: block;
-
-      img {
-        width: 30vmin;
-        height: 30vmin;
-
-        border-radius: 50%;
-      }
+  @media (max-width: $mobile-threshold) {
+    .s-logo {
+      height: 30vmin;
     }
   }
 }
