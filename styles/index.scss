@@ -9,6 +9,17 @@ $tile-margin: 1vmin;
 $tile-width: ($content-width) / 3;
 $tile-height: $tile-width * $height-factor;
 
+$threshold-small: 800px;
+
+$font-size-small: 2.5vmax;
+
+$body-padding-small: 15vmax;
+$content-width-small: 100vmax - 2 * $body-padding-small;
+
+$tile-margin-small: 1vmax;
+$tile-width-small: ($content-width-small) / 3;
+$tile-height-small: $tile-width-small * $height-factor;
+
 #index {
 
   background-image: url('images/aec.jpg');
@@ -40,6 +51,14 @@ $tile-height: $tile-width * $height-factor;
     width: $content-width;
     margin: 0 auto;
 
+    @media (max-width: $threshold-small) {
+      transform-origin: 50% 15%;
+
+      width: $content-width-small;
+
+      margin: 0 $tile-margin * 3;
+    }
+
     .tile {
       float: left;
 
@@ -57,11 +76,20 @@ $tile-height: $tile-width * $height-factor;
 
       overflow: hidden;
 
-      font-size: 2.5vmin;
+      font-size: $font-size;
       text-align: center;
 
       color: #414141;
       background: white;
+
+      @media (max-width: $threshold-small) {
+        width: $tile-width-small - 2 * $tile-margin-small;
+        height: $tile-width-small + $tile-margin-small;
+
+        margin: $tile-margin-small;
+
+        font-size: $font-size-small;
+      }
 
       .adjust-baseline {
         opacity: 0;
@@ -98,6 +126,12 @@ $tile-height: $tile-width * $height-factor;
       animation-delay: 1.5s;
       animation-timing-function: linear;;
       animation-fill-mode: forwards;
+
+      @media (max-width: $threshold-small) {
+        margin-top: calc(#{-$tile-width-small - 2 * $tile-margin-small} + 2px);
+
+        animation-name: showSecondLineSmall;
+      }
     }
 
     .tile.j1-right {
@@ -106,6 +140,10 @@ $tile-height: $tile-width * $height-factor;
       animation-delay: 1.5s;
       animation-timing-function: linear;;
       animation-fill-mode: forwards;
+
+      @media (max-width: $threshold-small) {
+        animation-name: fadeToPurpleSmall;
+      }
     }
 
     .tile.j1-left {
@@ -114,6 +152,10 @@ $tile-height: $tile-width * $height-factor;
       animation-delay: 1.5s;
       animation-timing-function: linear;;
       animation-fill-mode: forwards;
+
+      @media (max-width: $threshold-small) {
+        animation-name: fadeToCyanSmall;
+      }
     }
   }
 }
@@ -134,10 +176,23 @@ $tile-height: $tile-width * $height-factor;
   }
 }
 
+@keyframes showSecondLineSmall {
+  to {
+    margin-top: $tile-margin-small;
+  }
+}
+
 @keyframes seperateTiles {
     to {
       width: $tile-width - 2 * $tile-margin;
       margin: 0 $tile-margin;
+    }
+}
+
+@keyframes seperateTilesSmall {
+    to {
+      width: $tile-width-small - 2 * $tile-margin-small;
+      margin: 0 $tile-margin-small;
     }
 }
 
@@ -158,9 +213,23 @@ $tile-height: $tile-width * $height-factor;
   }
 }
 
+@keyframes fadeToCyanSmall {
+  to {
+    background: #65bab8;
+    margin-top: $tile-margin-small;
+  }
+}
+
 @keyframes fadeToPurple {
   to {
     background: #a03389;
     margin-top: $tile-margin;
+  }
+}
+
+@keyframes fadeToPurpleSmall {
+  to {
+    background: #a03389;
+    margin-top: $tile-margin-small;
   }
 }

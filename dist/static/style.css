@@ -121,6 +121,11 @@ body {
     position: relative;
     width: 70vmin;
     margin: 0 auto; }
+    @media (max-width: 800px) {
+      #index .row {
+        transform-origin: 50% 15%;
+        width: 70vmax;
+        margin: 0 3vmin; } }
     #index .row .tile {
       float: left;
       display: flex;
@@ -135,6 +140,12 @@ body {
       text-align: center;
       color: #414141;
       background: white; }
+      @media (max-width: 800px) {
+        #index .row .tile {
+          width: 21.33333vmax;
+          height: 24.33333vmax;
+          margin: 1vmax;
+          font-size: 2.5vmax; } }
       #index .row .tile .adjust-baseline {
         opacity: 0;
         transform: skewY(-30deg);
@@ -157,18 +168,28 @@ body {
       animation-delay: 1.5s;
       animation-timing-function: linear;
       animation-fill-mode: forwards; }
+      @media (max-width: 800px) {
+        #index .row .tile.tile-row-2 {
+          margin-top: calc(-25.33333vmax + 2px);
+          animation-name: showSecondLineSmall; } }
     #index .row .tile.j1-right {
       animation-name: fadeToPurple;
       animation-duration: 0.5s;
       animation-delay: 1.5s;
       animation-timing-function: linear;
       animation-fill-mode: forwards; }
+      @media (max-width: 800px) {
+        #index .row .tile.j1-right {
+          animation-name: fadeToPurpleSmall; } }
     #index .row .tile.j1-left {
       animation-name: fadeToCyan;
       animation-duration: 0.5s;
       animation-delay: 1.5s;
       animation-timing-function: linear;
       animation-fill-mode: forwards; }
+      @media (max-width: 800px) {
+        #index .row .tile.j1-left {
+          animation-name: fadeToCyanSmall; } }
 
 @keyframes rotateS {
   from {
@@ -180,10 +201,19 @@ body {
   to {
     margin-top: 1vmin; } }
 
+@keyframes showSecondLineSmall {
+  to {
+    margin-top: 1vmax; } }
+
 @keyframes seperateTiles {
   to {
     width: 21.33333vmin;
     margin: 0 1vmin; } }
+
+@keyframes seperateTilesSmall {
+  to {
+    width: 21.33333vmax;
+    margin: 0 1vmax; } }
 
 @keyframes showText {
   from {
@@ -196,10 +226,20 @@ body {
     background: #65bab8;
     margin-top: 1vmin; } }
 
+@keyframes fadeToCyanSmall {
+  to {
+    background: #65bab8;
+    margin-top: 1vmax; } }
+
 @keyframes fadeToPurple {
   to {
     background: #a03389;
     margin-top: 1vmin; } }
+
+@keyframes fadeToPurpleSmall {
+  to {
+    background: #a03389;
+    margin-top: 1vmax; } }
 
 * {
   margin: 0;
