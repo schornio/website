@@ -18,6 +18,10 @@ html, body {
 }
 
 body {
+  background-image: url('images/aec.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
   font: $body-font;
   font-weight: 100;
   padding-bottom: $default-space * 3;
@@ -37,10 +41,18 @@ h3 {
 }
 
 p {
-  margin: $default-space auto;
-  padding: 0 $default-space;
 
+}
+
+.content {
+  background: rgba(256, 256, 256, 0.85);
+  margin: 0 auto;
+  padding: $default-space $default-space * 2;
   max-width: $mobile-threshold;
+
+  @media (max-width: $mobile-threshold) {
+    padding: $default-space $default-space;
+  }
 }
 
 .center {

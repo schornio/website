@@ -1,25 +1,38 @@
-$main-color: white;
-$accent-color: hsl(200, 50%, 80%);
+$main-color: gray;
+$accent-color: white;
 
-$h1-font: 40px 'Lora', serif;
-$h2-font: 30px 'Lora', serif;
-$h3-font: 22px 'Lora', serif;
+$h1-font: 40px 'Roboto', serif;
+$h2-font: 30px 'Roboto', serif;
+$h3-font: 22px 'Roboto', serif;
 
-$body-font: 18pt 'Roboto', sans-serif;
+$body-font: 16pt 'Roboto', sans-serif;
+
+body {
+  letter-spacing: 1pt;
+  line-height: 1.5;
+}
 
 h1 {
   font: $h1-font;
+  font-weight: 100;
 }
 
 h2 {
   font: $h2-font;
+  font-weight: 100;
 }
 
 h3 {
   font: $h3-font;
+  font-weight: 100;
 }
 
 a {
   color: darken($accent-color, 20%);;
   text-decoration: none;
+}
+
+p {
+  letter-spacing: 1pt;
+  line-height: 1.5;
 }

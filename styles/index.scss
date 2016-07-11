@@ -22,9 +22,6 @@ $tile-height-small: $tile-width-small * $height-factor;
 
 #index {
 
-  background-image: url('images/aec.jpg');
-  background-size: cover;
-
   display: flex;
 
   flex-flow: column;
