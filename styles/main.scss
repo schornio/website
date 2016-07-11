@@ -44,15 +44,20 @@ p {
 
 }
 
-.content {
+.board {
+  transform: skewY(6deg);
   background: rgba(256, 256, 256, 0.85);
   margin: 0 auto;
-  padding: $default-space $default-space * 2;
+  padding: $default-space $default-space * 2 $default-space * 4 $default-space * 2;
   max-width: $mobile-threshold;
 
   @media (max-width: $mobile-threshold) {
     padding: $default-space $default-space;
   }
+}
+
+.content {
+  transform: skewY(-6deg);
 }
 
 .center {

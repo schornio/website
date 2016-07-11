@@ -275,14 +275,18 @@ h1, h2, h3 {
 h3 {
   text-align: left; }
 
-.content {
+.board {
+  transform: skewY(6deg);
   background: rgba(255, 255, 255, 0.85);
   margin: 0 auto;
-  padding: 20px 40px;
+  padding: 20px 40px 80px 40px;
   max-width: 800px; }
   @media (max-width: 800px) {
-    .content {
+    .board {
       padding: 20px 20px; } }
+
+.content {
+  transform: skewY(-6deg); }
 
 .center {
   text-align: center; }
