@@ -30,7 +30,6 @@ body {
 
 h1, h2, h3 {
   margin: $default-space * 3 auto $default-space auto;
-  padding: 0 $default-space;
 
   max-width: $mobile-threshold;
 
@@ -67,7 +66,6 @@ p {
 }
 
 .center {
-  margin: 2em 0;
   text-align: center;
 }
 
