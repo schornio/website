@@ -19,3 +19,5 @@
 <p class="center">
   [Impressum](/imprint)  
 </p>
+
+Hintergrundbild von [cea +](https://www.flickr.com/photos/centralasian/3889394828), [Some Rights Reserved](!https://creativecommons.org/licenses/by/2.0/), Blur Effekt hinzugefügt.
