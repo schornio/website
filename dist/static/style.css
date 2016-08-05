@@ -196,6 +196,12 @@ body {
       @media (max-width: 800px) {
         #index .row .tile.j1-left {
           animation-name: fadeToCyanSmall; } }
+  #index #main-nav {
+    font: 16pt "Roboto", sans-serif;
+    font-weight: 100; }
+    @media (max-width: 800px) {
+      #index #main-nav {
+        display: none; } }
 
 @keyframes rotateS {
   from {

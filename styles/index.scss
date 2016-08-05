@@ -155,6 +155,15 @@ $tile-height-small: $tile-width-small * $height-factor;
       }
     }
   }
+
+  #main-nav {
+    font: $body-font;
+    font-weight: 100;
+
+    @media (max-width: $mobile-threshold) {
+      display: none;
+    }
+  }
 }
 
 @keyframes rotateS {
