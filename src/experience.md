@@ -4,6 +4,11 @@
   ![Thomas Schorn an seinem Mac](../static/images/experience.jpg)
 </p>
 
+### Selbstständiger Unternehmer
+
+In Linz von 2015 bis jetzt
+
+Aufbau einens Softwareunternehmens und Entwicklung von [Journal One](https://getjournal.one)
 
 ### Start-Up Accelerator mit Zebra New Media
 

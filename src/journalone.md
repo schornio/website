@@ -11,4 +11,4 @@
   [getjournal.one](http://getjournal.one)
 </p>
 
-Mit Journal One ist es einfach Webseiten zu beobachten. Ob nun zum Zweck der Konkurrenzanalyse, Kundenbetreuung oder als Recherchewerkzeug. Auch individuelle Anpassungen an genau Ihr Einsatzszenario sind möglich.
+Mit Journal One ist es einfach Webseiten zu beobachten. Ob nun zum Zweck der Marktanalyse, Kundenbetreuung oder als Recherchewerkzeug. Auch individuelle Anpassungen an genau Ihr Einsatzszenario sind möglich.
