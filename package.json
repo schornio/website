@@ -1,6 +1,6 @@
 {
   "name": "schornio",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Thomas Schorns commercial website",
   "main": "index.js",
   "scripts": {
