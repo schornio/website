@@ -154,6 +154,7 @@ body {
           font-size: 2.5vmax; } }
       #index .row .tile .adjust-baseline {
         opacity: 0;
+        font-size: 2.5vmin;
         transform: skewY(-30deg);
         animation-name: showText;
         animation-duration: 0.5s;

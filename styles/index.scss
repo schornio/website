@@ -90,6 +90,7 @@ $tile-height-small: $tile-width-small * $height-factor;
 
       .adjust-baseline {
         opacity: 0;
+        font-size: 2.5vmin;
 
         transform: skewY(-30deg);
 
