@@ -20,8 +20,6 @@ description: Ich bin ein passionierter Softwareentwickler in Linz und immer offe
   4020 Linz
 </p>
 
-<p class="center">
-  [Impressum](/imprint)  
+<p class="small center">
+  Hintergrundbild von [cea +](https://www.flickr.com/photos/centralasian/3889394828), [Some Rights Reserved](!https://creativecommons.org/licenses/by/2.0/), Blur Effekt hinzugefügt.
 </p>
-
-Hintergrundbild von [cea +](https://www.flickr.com/photos/centralasian/3889394828), [Some Rights Reserved](!https://creativecommons.org/licenses/by/2.0/), Blur Effekt hinzugefügt.
