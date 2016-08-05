@@ -18,7 +18,7 @@ Aufbau einens Softwareunternehmens und Entwicklung von [Journal One](https://get
 
 Silicon Valley von April bis Juni 2015
 
-Teilnahme an einem Coaching- und Entwicklungsprogramm für Start-Ups bei [Founders Space](http://www.foundersspace.com/). Wichtige Erfahrungen im Bereich Führung und Management.
+Teilnahme an einem Coaching- und Entwicklungsprogramm für Start-Ups bei [Founders Space](http://www.foundersspace.com/). Wichtige Erfahrungen im Bereich Führung und Management.
 
 ### [Zebra New Media](http://zebra-online.at)
 
