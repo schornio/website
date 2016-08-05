@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="Ilu4w7gshrgvbXMiiTCQQvJi3byTXHqQ3yRnIQc94bQ" />
+
+    {{#description}}
+    <meta name="description" content="{{.}}">
+    {{/description}}
+
+    <title>{{title}}</title>
+
+    {{> styles}}
+  </head>
+  <body id="index">
+    {{> main_menu}}
+
+    <div class="row">
+        <a class="tile tile-right tile-row-1" href="/contact">
+          <h1 class="adjust-baseline">
+            Thomas Schorn
+          </h1>
+        </a>
+        <a class="tile tile-left tile-row-1" href="/contact">
+          <span class="adjust-baseline">
+            <img class="tile-image" src="static/images/thomas_schorn_face.jpg" alt="Portrait von Thomas Schorn" />
+          </span>
+        </a>
+        <a class="tile tile-right tile-row-1" href="/myoffer">
+          <span class="adjust-baseline">
+            Mein Angebot
+          </span>
+        </a>
+
+      <a class="tile tile-right tile-row-2 j1-left" href="/journalone">
+        <span class="adjust-baseline">
+
+        </span>
+      </a>
+      <a class="tile tile-left tile-row-2 j1-right" href="/journalone">
+        <span class="adjust-baseline">
+
+        </span>
+      </a>
+      <a class="tile tile-right tile-row-2" href="/experience">
+        <span class="adjust-baseline">
+          Erfahrung
+        <span>
+      </a>
+    </div>
+
+
+    {{> scripts}}
+  </body>
+</html>

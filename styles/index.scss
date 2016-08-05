@@ -1,0 +1,242 @@
+$height-factor: 1.732;
+
+$font-size: 2.5vmin;
+
+$body-padding: 15vmin;
+$content-width: 100vmin - 2 * $body-padding;
+
+$tile-margin: 1vmin;
+$tile-width: ($content-width) / 3;
+$tile-height: $tile-width * $height-factor;
+
+$threshold-small: 800px;
+
+$font-size-small: 2.5vmax;
+
+$body-padding-small: 15vmax;
+$content-width-small: 100vmax - 2 * $body-padding-small;
+
+$tile-margin-small: 1vmax;
+$tile-width-small: ($content-width-small) / 3;
+$tile-height-small: $tile-width-small * $height-factor;
+
+#index {
+
+  display: flex;
+
+  flex-flow: column;
+  justify-content: center;
+
+  padding: 0;
+
+  height: 100%;
+
+  font-size: 0;
+
+  .row {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+
+    animation-name: rotateS;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;;
+    animation-fill-mode: forwards;
+
+    position: relative;
+
+    width: $content-width;
+    margin: 0 auto;
+
+    @media (max-width: $threshold-small) {
+      transform-origin: 50% 15%;
+
+      width: $content-width-small;
+
+      margin: 0 $tile-margin * 3;
+    }
+
+    .tile {
+      float: left;
+
+      display: flex;
+
+      flex-flow: column;
+      justify-content: center;
+
+      transform: skewY(30deg);
+
+      width: $tile-width - 2 * $tile-margin;
+      height: $tile-width + $tile-margin;
+
+      margin: $tile-margin;
+
+      overflow: hidden;
+
+      font-size: $font-size;
+      text-align: center;
+
+      color: #414141;
+      background: white;
+
+      @media (max-width: $threshold-small) {
+        width: $tile-width-small - 2 * $tile-margin-small;
+        height: $tile-width-small + $tile-margin-small;
+
+        margin: $tile-margin-small;
+
+        font-size: $font-size-small;
+      }
+
+      .adjust-baseline {
+        opacity: 0;
+        font-size: 2.5vmin;
+
+        transform: skewY(-30deg);
+
+        animation-name: showText;
+        animation-duration: 0.5s;
+        animation-delay: 2s;
+        animation-timing-function: linear;;
+        animation-fill-mode: forwards;
+      }
+
+      .tile-image {
+        width: 70%;
+        border-radius: 50%;
+      }
+    }
+
+    .tile-left {
+      transform: skewY(-30deg);
+
+      .adjust-baseline {
+        transform: skewY(30deg);
+      }
+    }
+
+    .tile.tile-row-2 {
+      margin-top: calc(#{-$tile-width - 2 * $tile-margin} + 2px);
+
+
+      animation-name: showSecondLine;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;;
+      animation-fill-mode: forwards;
+
+      @media (max-width: $threshold-small) {
+        margin-top: calc(#{-$tile-width-small - 2 * $tile-margin-small} + 2px);
+
+        animation-name: showSecondLineSmall;
+      }
+    }
+
+    .tile.j1-right {
+      animation-name: fadeToPurple;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;;
+      animation-fill-mode: forwards;
+
+      @media (max-width: $threshold-small) {
+        animation-name: fadeToPurpleSmall;
+      }
+    }
+
+    .tile.j1-left {
+      animation-name: fadeToCyan;
+      animation-duration: 0.5s;
+      animation-delay: 1.5s;
+      animation-timing-function: linear;;
+      animation-fill-mode: forwards;
+
+      @media (max-width: $threshold-small) {
+        animation-name: fadeToCyanSmall;
+      }
+    }
+  }
+
+  #main-nav {
+    font: $body-font;
+    font-weight: 100;
+
+    @media (max-width: $mobile-threshold) {
+      display: none;
+    }
+  }
+}
+
+@keyframes rotateS {
+  from {
+    transform: rotate(90deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes showSecondLine {
+  to {
+    margin-top: $tile-margin;
+  }
+}
+
+@keyframes showSecondLineSmall {
+  to {
+    margin-top: $tile-margin-small;
+  }
+}
+
+@keyframes seperateTiles {
+    to {
+      width: $tile-width - 2 * $tile-margin;
+      margin: 0 $tile-margin;
+    }
+}
+
+@keyframes seperateTilesSmall {
+    to {
+      width: $tile-width-small - 2 * $tile-margin-small;
+      margin: 0 $tile-margin-small;
+    }
+}
+
+@keyframes showText {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeToCyan {
+  to {
+    background: #65bab8;
+    margin-top: $tile-margin;
+  }
+}
+
+@keyframes fadeToCyanSmall {
+  to {
+    background: #65bab8;
+    margin-top: $tile-margin-small;
+  }
+}
+
+@keyframes fadeToPurple {
+  to {
+    background: #a03389;
+    margin-top: $tile-margin;
+  }
+}
+
+@keyframes fadeToPurpleSmall {
+  to {
+    background: #a03389;
+    margin-top: $tile-margin-small;
+  }
+}
