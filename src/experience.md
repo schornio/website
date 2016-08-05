@@ -1,3 +1,7 @@
+---
+description: "Erfahrung: Aufbau einens Softwareunternehmens und Entwicklung von Journal One; Zebra New Media - Softwareentwickler in Linz von 2013 bis 2015; FH Hagenberg - Kommunikation, Wissen, Medien"
+---
+
 # Erfahrung
 
 <p class="panorama-image">

@@ -1,3 +1,7 @@
+---
+description: Meine Passion ist die Entwicklung von Webanwendungen vorzugsweise mit JavaScript und der Technologie Node.js. Aber auch PHP und .NET liegen in meinem Repertoire.
+---
+
 # Mein Angebot
 
 <p id="skills-images">

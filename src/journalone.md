@@ -1,3 +1,7 @@
+---
+description: Mit Journal One ist es einfach Webseiten zu beobachten. Ob nun zum Zweck der Marktanalyse, Kundenbetreuung oder als Recherchewerkzeug.
+---
+
 # Journal One
 
 <p class="center">
