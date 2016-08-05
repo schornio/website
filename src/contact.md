@@ -21,5 +21,5 @@ description: Ich bin ein passionierter Softwareentwickler in Linz und immer offe
 </p>
 
 <p class="small center">
-  Hintergrundbild von [cea +](https://www.flickr.com/photos/centralasian/3889394828), [Some Rights Reserved](!https://creativecommons.org/licenses/by/2.0/), Blur Effekt hinzugefügt.
+  Hintergrundbild von [cea +](https://www.flickr.com/photos/centralasian/3889394828), [Some Rights Reserved](https://creativecommons.org/licenses/by/2.0/), Blur Effekt hinzugefügt.
 </p>
