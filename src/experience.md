@@ -30,7 +30,7 @@ Mithilfe in jedem Teilbereich des Unternehmens, vor allem in der Entwicklung der
 
 ### [FH Hagenberg](https://www.fh-ooe.at/campus-hagenberg/studiengaenge/bachelor/kommunikation-wissen-medien/)
 
-Kommunikation, Wissen, Medien, von 2012 bis jetzt
+Kommunikation, Wissen, Medien, von 2012 bis 2016
 
 Schwerpunkt auf der Schnittstelle zwischen Informatik und Gesellschaft. Seminare u.a. zu empirischer Sozialforschung, Medienpsychologie, Projekt- und Organisationsmanagement, Softwaremodellierung und -Entwicklung.
 

@@ -14,7 +14,7 @@ description: Ich bin ein passionierter Softwareentwickler in Linz und immer offe
 </p>
 
 <p class="center">
-  Thomas Schorn  
+  Thomas Schorn, BA  
   c/o AXIS Linz - Coworking Loft  
   Peter-Behrens-Platz 2, OG 1  
   4020 Linz
