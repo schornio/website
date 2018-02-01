@@ -1,0 +1,9 @@
+{% case story.content.component%}
+
+  {% when 'page' %}
+    {% include 'page' with story: story %}
+
+  {% else %}
+     Invalid component
+
+{% endcase %}

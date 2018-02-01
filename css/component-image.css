@@ -1,0 +1,27 @@
+
+.sio-image {
+
+  margin: 0 auto;
+  max-width: 600px;
+
+}
+
+.sio-image img {
+
+  display: block;
+  width: 100%;
+
+}
+
+.sio-image-frame {
+
+  padding: 0 1rem;
+
+}
+
+.sio-image-frame img {
+
+  box-sizing: border-box;
+  border: 2px solid;
+
+}

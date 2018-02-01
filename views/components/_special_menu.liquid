@@ -1,0 +1,19 @@
+{% set mainStories from stories with_tag: "main" %}
+
+<nav class="sio-special-menu">
+
+  <ul>
+    <li>
+      <a href="/">Startseite</a>
+    </li>
+
+    {% for menuItem in mainStories.data %}
+
+      <li>
+        <a href="/{{menuItem.full_slug}}">{{menuItem.name}}</a>
+      </li>
+
+    {% endfor %}
+  </ul>
+
+</nav>

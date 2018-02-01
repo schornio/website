@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Thomas Schorn | Professionelle Webentwicklung</title>
+
+    <link rel="stylesheet" href="{{ 'bundle.css' | asset_url }}" />
+    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Mono:500" rel="stylesheet">
+
+  </head>
+  <body>
+
+    {% include 'header' with page: story %}
+
+    {% for item in story.content.body %}
+
+      {% include item.component with content: item %}
+
+    {% endfor %}
+
+    {% include 'special_menu' %}
+    {% include 'footer' %}
+
+  </body>
+</html>

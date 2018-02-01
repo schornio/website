@@ -1,0 +1,34 @@
+
+.sio-special-menu {
+
+  margin: 2rem auto;
+
+}
+
+.sio-special-menu ul {
+
+  padding: 0;
+
+  border-bottom: 1px solid;
+
+  list-style: none;
+
+}
+
+.sio-special-menu ul li {
+
+  padding: 1rem;
+
+  border-top: 1px solid;
+
+  font-family: var(--font-accent);
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.sio-special-menu ul li a {
+
+  color: var(--color-main);
+
+}

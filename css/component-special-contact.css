@@ -1,0 +1,36 @@
+.sio-special-contact {
+
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  max-width: 500px;
+
+  font-size: 1.2rem;
+
+}
+
+.sio-special-contact dl {
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.sio-special-contact dl dt,
+.sio-special-contact dl dd {
+
+  margin: 0.5rem 0;
+
+}
+
+.sio-special-contact dl dt {
+
+  width: 35%;
+
+}
+
+.sio-special-contact dl dd {
+
+  text-align: right;
+  width: 65%;
+
+}

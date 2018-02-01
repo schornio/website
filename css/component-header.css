@@ -1,0 +1,22 @@
+
+.sio-header {
+
+  margin: 1rem auto;
+  padding: 1rem;
+
+}
+
+.sio-header h1 {
+
+  font-size: 1rem;
+  margin: 0;
+
+}
+
+.sio-header h1 strong {
+
+  display: inline-block;
+  width: 100%;
+  color: var(--color-accent);
+
+}

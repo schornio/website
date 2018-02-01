@@ -1,0 +1,16 @@
+
+{{content._editable}}
+<section class="sio-special-contact">
+
+  <dl>
+
+    {% for item in content.items %}
+
+      <dt>{{item.name}}</dt>
+      <dd><a href="{{item.link}}">{{item.value}}</a></dd>
+
+    {% endfor %}
+
+  </dl>
+
+</section>
